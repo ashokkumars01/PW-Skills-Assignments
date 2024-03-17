@@ -1,0 +1,98 @@
+2024-03-17 16:57:01,448 - INFO - Account Number: 123456789, Account Holder Name: Ravi, Balance: 1000
+2024-03-17 16:57:01,449 - INFO - Deposited 500 into account 123456789. New balance: 1500
+2024-03-17 16:57:01,449 - INFO - Withdrew 200 from account 123456789. New balance: 1300
+2024-03-17 16:57:01,449 - INFO - Account Number: 987654321, Account Holder Name: Suresh, Balance: 0
+2024-03-17 16:57:01,450 - ERROR - Deposit amount should be greater than zero.
+2024-03-17 16:57:01,450 - ERROR - Insufficient funds for withdrawal.
+2024-03-17 16:59:48,101 - INFO - Employee ID: E123, Name: John Doe, Salary: 50000
+2024-03-17 16:59:48,201 - INFO - Calculated yearly bonus for employee John Doe: 5000.0
+2024-03-17 16:59:48,202 - INFO - Employee ID: E456, Name: Jane Smith, Salary: 60000
+2024-03-17 16:59:48,202 - ERROR - Bonus percentage should be greater than zero.
+2024-03-17 17:02:52,432 - INFO - Added Vehicle Type: Car, Vehicle ID: C001 to available vehicles.
+2024-03-17 17:02:52,432 - INFO - Added Vehicle Type: Car, Vehicle ID: C002 to available vehicles.
+2024-03-17 17:02:52,432 - INFO - Added Vehicle Type: Bike, Vehicle ID: B001 to available vehicles.
+2024-03-17 17:02:52,433 - INFO - Available vehicles:
+2024-03-17 17:02:52,433 - INFO - Vehicle Type: Car, Vehicle ID: C002
+2024-03-17 17:02:52,433 - INFO - Vehicle Type: Car, Vehicle ID: C001
+2024-03-17 17:02:52,433 - INFO - Vehicle Type: Bike, Vehicle ID: B001
+2024-03-17 17:02:52,433 - INFO - Rented Vehicle Type: Bike, Vehicle ID: B001.
+2024-03-17 17:02:52,433 - INFO - Available vehicles:
+2024-03-17 17:02:52,433 - INFO - Vehicle Type: Car, Vehicle ID: C002
+2024-03-17 17:02:52,433 - INFO - Vehicle Type: Car, Vehicle ID: C001
+2024-03-17 17:02:52,433 - INFO - Returned Vehicle Type: Bike, Vehicle ID: B001.
+2024-03-17 17:02:52,433 - INFO - Available vehicles:
+2024-03-17 17:02:52,433 - INFO - Vehicle Type: Car, Vehicle ID: C002
+2024-03-17 17:02:52,433 - INFO - Vehicle Type: Car, Vehicle ID: C001
+2024-03-17 17:02:52,433 - INFO - Vehicle Type: Bike, Vehicle ID: B001
+2024-03-17 17:04:23,960 - INFO - Added Title: Book 1, Author: Author 1, Available: True to the library.
+2024-03-17 17:04:23,961 - INFO - Added Title: Book 2, Author: Author 2, Available: True to the library.
+2024-03-17 17:04:23,961 - INFO - Added Title: Book 3, Author: Author 3, Available: True to the library.
+2024-03-17 17:04:23,962 - INFO - Available books:
+2024-03-17 17:04:23,962 - INFO - Title: Book 1, Author: Author 1, Available: True
+2024-03-17 17:04:23,963 - INFO - Title: Book 2, Author: Author 2, Available: True
+2024-03-17 17:04:23,963 - INFO - Title: Book 3, Author: Author 3, Available: True
+2024-03-17 17:04:23,963 - INFO - Borrowed Title: Book 2, Author: Author 2, Available: False.
+2024-03-17 17:04:23,963 - INFO - Available books:
+2024-03-17 17:04:23,963 - INFO - Title: Book 1, Author: Author 1, Available: True
+2024-03-17 17:04:23,963 - INFO - Title: Book 3, Author: Author 3, Available: True
+2024-03-17 17:04:23,963 - INFO - Returned Title: Book 2, Author: Author 2, Available: True.
+2024-03-17 17:04:23,964 - INFO - Available books:
+2024-03-17 17:04:23,964 - INFO - Title: Book 1, Author: Author 1, Available: True
+2024-03-17 17:04:23,964 - INFO - Title: Book 2, Author: Author 2, Available: True
+2024-03-17 17:04:23,964 - INFO - Title: Book 3, Author: Author 3, Available: True
+2024-03-17 17:04:23,964 - ERROR - No available copy of 'Book 4' in the library.
+2024-03-17 17:06:01,214 - INFO - Added Product: Product 1, Quantity: 10 to the inventory.
+2024-03-17 17:06:01,214 - INFO - Added Product: Product 2, Quantity: 20 to the inventory.
+2024-03-17 17:06:01,215 - INFO - Added Product: Product 3, Quantity: 30 to the inventory.
+2024-03-17 17:06:01,215 - INFO - Available products:
+2024-03-17 17:06:01,215 - INFO - Product: Product 1, Quantity: 10
+2024-03-17 17:06:01,215 - INFO - Product: Product 2, Quantity: 20
+2024-03-17 17:06:01,215 - INFO - Product: Product 3, Quantity: 30
+2024-03-17 17:06:01,216 - INFO - Updated quantity of Product: Product 2, Quantity: 25 to 25.
+2024-03-17 17:06:01,216 - INFO - Available products:
+2024-03-17 17:06:01,216 - INFO - Product: Product 1, Quantity: 10
+2024-03-17 17:06:01,216 - INFO - Product: Product 2, Quantity: 25
+2024-03-17 17:06:01,216 - INFO - Product: Product 3, Quantity: 30
+2024-03-17 17:06:01,217 - ERROR - No product named 'Product 4' found in the inventory.
+2024-03-17 17:07:14,342 - INFO - Calculated area: 15
+2024-03-17 17:07:14,343 - INFO - Calculated perimeter: 16
+2024-03-17 17:07:14,343 - INFO - Calculated area: 24
+2024-03-17 17:07:14,343 - INFO - Calculated perimeter: 20
+2024-03-17 17:07:14,344 - ERROR - Both length and width must be specified to calculate the area.
+2024-03-17 17:07:14,344 - ERROR - Both length and width must be specified to calculate the perimeter.
+2024-03-17 17:08:51,860 - INFO - Student ID: 1, Name: Raju, Grades: [85, 90, 88]
+2024-03-17 17:08:51,860 - INFO - Calculated average grade: 87.66666666666667
+2024-03-17 17:08:51,860 - INFO - Added grade 75 for student Bharath.
+2024-03-17 17:08:51,861 - INFO - Added grade 80 for student Bharath.
+2024-03-17 17:08:51,861 - INFO - Student ID: 2, Name: Bharath, Grades: [75, 80]
+2024-03-17 17:08:51,861 - INFO - Calculated average grade: 77.5
+2024-03-17 17:08:51,861 - INFO - Student ID: 3, Name: Naveen, Grades: [75, 80]
+2024-03-17 17:08:51,862 - INFO - Calculated average grade: 77.5
+2024-03-17 17:11:08,846 - INFO - Sender: ravi@example.com, Recipient: raju@example.com, Subject: Test Email 1
+2024-03-17 17:11:08,846 - INFO - Email sent from 'ravi@example.com' to 'raju@example.com' with subject 'Test Email 1'.
+2024-03-17 17:11:08,846 - INFO - Sender: naveen@example.com, Recipient: hemanth@example.com, Subject: Test Email 2
+2024-03-17 17:11:08,847 - INFO - Email sent from 'naveen@example.com' to 'hemanth@example.com' with subject 'Test Email 2'.
+2024-03-17 17:12:39,926 - INFO - Added post 'Hello world! #firstpost' to the profile.
+2024-03-17 17:12:39,926 - INFO - Added post 'This is a test post.' to the profile.
+2024-03-17 17:12:39,927 - INFO - Added post 'Another post with #hashtags.' to the profile.
+2024-03-17 17:12:39,927 - INFO - Posts of user1:
+2024-03-17 17:12:39,928 - INFO - Hello world! #firstpost
+2024-03-17 17:12:39,928 - INFO - This is a test post.
+2024-03-17 17:12:39,928 - INFO - Another post with #hashtags.
+2024-03-17 17:12:39,928 - INFO - Posts containing '#hashtags' for user1:
+2024-03-17 17:12:39,929 - INFO - Another post with #hashtags.
+2024-03-17 17:12:39,929 - INFO - No posts found for user2.
+2024-03-17 17:12:39,929 - INFO - No posts containing 'test' found for user2.
+2024-03-17 17:14:13,410 - INFO - Added task 'Task 1' to the ToDo list.
+2024-03-17 17:14:13,411 - INFO - Added task 'Task 2' to the ToDo list.
+2024-03-17 17:14:13,411 - WARNING - Task 'Task 1' already exists in the ToDo list.
+2024-03-17 17:14:13,411 - INFO - Added task 'Task 3' to the ToDo list.
+2024-03-17 17:14:13,412 - INFO - Pending tasks:
+2024-03-17 17:14:13,412 - INFO - Task 1
+2024-03-17 17:14:13,412 - INFO - Task 2
+2024-03-17 17:14:13,412 - INFO - Task 3
+2024-03-17 17:14:13,412 - INFO - Marked task 'Task 1' as completed.
+2024-03-17 17:14:13,412 - WARNING - Task 'Task 4' not found in the ToDo list.
+2024-03-17 17:14:13,413 - INFO - Pending tasks:
+2024-03-17 17:14:13,413 - INFO - Task 2
+2024-03-17 17:14:13,413 - INFO - Task 3
