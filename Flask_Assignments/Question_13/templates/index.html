@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Notifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #notifications {
+            border: 1px solid #ddd;
+            padding: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .notification {
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="notifications"></div>
+    <button id="notify-button">Send Notification</button>
+
+    <!-- Include Socket.IO client library -->
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script>
+        const socket = io();
+
+        const notificationsDiv = document.getElementById('notifications');
+        const notifyButton = document.getElementById('notify-button');
+
+        socket.on('notification', function(data) {
+            const notificationElement = document.createElement('div');
+            notificationElement.className = 'notification';
+            notificationElement.textContent = data.message;
+            notificationsDiv.appendChild(notificationElement);
+        });
+
+        notifyButton.addEventListener('click', function() {
+            // You can modify this to send different messages or to get messages from an input field
+            fetch('/notify/This is a new notification!')
+                .then(response => response.text())
+                .then(text => console.log(text));
+        });
+    </script>
+</body>
+</html>

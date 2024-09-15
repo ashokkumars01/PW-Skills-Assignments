@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #counter {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="counter">0</div>
+    <button id="increment-button">Increment Counter</button>
+
+    <!-- Include Socket.IO client library -->
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script>
+        const socket = io();
+
+        const counterDiv = document.getElementById('counter');
+        const incrementButton = document.getElementById('increment-button');
+
+        socket.on('update_counter', function(data) {
+            counterDiv.textContent = data.counter;
+        });
+
+        incrementButton.addEventListener('click', function() {
+            socket.emit('increment');
+        });
+    </script>
+</body>
+</html>

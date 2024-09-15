@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Item</title>
+</head>
+<body>
+    <h1>Edit Item</h1>
+    <form method="POST" action="{{ url_for('update_item', item_id=item.id) }}">
+        <input type="text" name="name" value="{{ item.name }}">
+        <textarea name="description">{{ item.description }}</textarea>
+        <input type="submit" value="Update">
+    </form>
+</body>
+</html>
